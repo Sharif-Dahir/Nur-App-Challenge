@@ -1,0 +1,6 @@
+{
+  "name": "nur-challenges",
+  "description": "A spiritual growth and fasting tracker companion application featuring leaderboards and upcoming challenges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
