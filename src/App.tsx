@@ -29,6 +29,7 @@ import BottomNav from './components/BottomNav';
 
 import { FastingState, UserStats, LeaderboardUser, Quest, HistoricalAct, Notification } from './types';
 import { INITIAL_LEADERBOARD, INITIAL_QUESTS, SPIRITUAL_QUOTES, PREMIUM_PERKS } from './data';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 export default function App() {
   // Navigation
@@ -575,6 +576,9 @@ export default function App() {
 
       {/* Persistent bottom navigational container */}
       <BottomNav activeTab={activeTab} onChangeTab={setActiveTab} />
+      
+      {/* Vercel Speed Insights */}
+      <SpeedInsights />
     </div>
   );
 }
